@@ -8,9 +8,12 @@
     margin: 0px;
     padding: 0.1px;
 }
-div
+.contenedor
 {
-    text-align: center;
+width:100%;
+max-width:1400px;
+margin:0 auto;
+overflow:hidden;
 }
 header
 {
@@ -22,7 +25,7 @@ header
 }
 #img1
 {
-    width: 350px;
+    width: 35%;
     margin-top: 25px;
     margin-left: 20;
 }
@@ -38,6 +41,7 @@ nav
     float: right;
     margin-top: 50;
     margin-right: 80;
+    width: 20%;
 }
 a
 {
@@ -105,6 +109,7 @@ li:hover a
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 #autor
 {
@@ -120,7 +125,7 @@ li:hover a
 }
 #images
 {
-    width: 600px;
+    width: 60%;
     margin-top: 50px;
 }
 iframe
