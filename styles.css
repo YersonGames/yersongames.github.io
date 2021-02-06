@@ -15,6 +15,10 @@ max-width:1400px;
 margin:0 auto;
 overflow:hidden;
 }
+#button
+{
+width: 20%;
+}
 header
 {
     background-image: url(header.png);
@@ -25,48 +29,50 @@ header
 }
 #img1
 {
-    width: 35%;
-    margin-top: 25px;
-    margin-left: 20;
+    width: 40%;
+    margin-top: 40;
+    margin-left: 15;
 }
 li
 {
     float: left;
     list-style: none;
-    padding-right: 20;
+    padding-right: 10%;
+    font-size: 20;
 }
 
 nav
 {
     float: right;
-    margin-top: 50;
+    margin-top: 60;
     margin-right: 80;
-    width: 20%;
+    width:20%;
 }
 a
 {
     text-decoration: none;
-    font-family: 'mojangles';
+    font-family: Arial;
     color: white;
 }
 
 li:hover a
 {
-    color: lime;
+    color: red;
 }
 
 #text1
 {
-    font-family: 'mojangles';
+    font-family: Arial;
     color: white;
     margin-top: 200px;
     font-size: 30px;
+    width: 20%;
 }
 #text2
 {
-    font-family: 'mojangles';
+    font-family: Arial;
     color: white;
-    margin-top: 200px;
+    margin-top: 50px;
     font-size: 25px;
 }
 #version1
@@ -109,17 +115,16 @@ li:hover a
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
 }
 #autor
 {
-    font-family: 'mojangles';
+    font-family: Arial;
     margin-top: 20px;
     color: red;
 }
 #autor2
 {
-    font-family: 'mojangles';
+    font-family: Arial;
     margin-top: 10px;
     color: white;
 }
@@ -133,9 +138,19 @@ iframe
     border-style: none;
     width: 100%;
     height: 149px;
-    margin-bottom: 0%;
+    margin-top: 20%;
 }
 #logo
 {
-    width: 80px;
+    width: 8%;
+}
+
+#game
+{
+	width: 57.3%;
+	margin-top: 50px;
+}
+#game:hover
+{
+	width: 58.3%;
 }
