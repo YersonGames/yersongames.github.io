@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://www.yersongames.ga/home</loc>
+    <lastmod>2021-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/yg.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/mcgml.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/yt.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/discord.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/gj.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.yersongames.ga/footer.html</loc>
+    <lastmod>2021-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/yygg.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.yersongames.ga/MinecraftGML/home</loc>
+    <lastmod>2021-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/MinecraftGML/title.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/MinecraftGML/button1.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/MinecraftGML/images/image1.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/MinecraftGML/images/image2.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/MinecraftGML/images/image3.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/MinecraftGML/images/image4.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/MinecraftGML/images/image5.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/MinecraftGML/images/image6.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.yersongames.ga/projects</loc>
+    <lastmod>2021-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/yg.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/mcgml.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.yersongames.ga/MinecraftGML/footer.html</loc>
+    <lastmod>2021-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/MinecraftGML/yygg.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.yersongames.ga/MinecraftGML/downloads</loc>
+    <lastmod>2021-02-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/MinecraftGML/title.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>http://www.yersongames.ga/MinecraftGML/button1.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+</urlset>
+<!--<guid value="09810e10-fee5-47bd-8e0f-03ad3771f86a" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
