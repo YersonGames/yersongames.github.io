@@ -1,0 +1,147 @@
+@font-face
+{
+    font-family: 'mojangles';
+    src: url(mojangles.ttf);
+}
+*
+{
+    margin: 0px;
+    padding: 0.1px;
+}
+div
+{
+    text-align: center;
+}
+header
+{
+    background-image: url(header.png);
+    width: 100%;
+    height: 149px;
+    position: fixed;
+    z-index: 12;
+}
+#img1
+{
+    width: 400px;
+    margin-top: 40;
+    margin-left: 15;
+}
+li
+{
+    float: left;
+    list-style: none;
+    padding-right: 20;
+	font-size: 20;
+}
+
+nav
+{
+    float: right;
+    margin-top: 60;
+    margin-right: 80;
+}
+a
+{
+    text-decoration: none;
+    font-family: Arial;
+    color: white;
+}
+
+li:hover a
+{
+    color: red;
+}
+
+#text1
+{
+    font-family: Arial;
+    color: white;
+    margin-top: 200px;
+    font-size: 30px;
+}
+#text2
+{
+    font-family: Arial;
+    color: white;
+    margin-top: 50px;
+    font-size: 25px;
+}
+#version1
+{
+    font-family: 'mojangles';
+    color: white;
+    font-size: 20px;
+}
+#version2
+{
+    font-family: 'mojangles';
+    color: red;
+    font-size: 20px;
+}
+.button1{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texts
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'mojangles';
+    color: white;
+}
+#audio
+{
+    display: none;
+}
+.button2{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#autor
+{
+    font-family: Arial;
+    margin-top: 20px;
+    color: red;
+}
+#autor2
+{
+    font-family: Arial;
+    margin-top: 10px;
+    color: white;
+}
+#images
+{
+    width: 600px;
+    margin-top: 50px;
+}
+iframe
+{
+    border-style: none;
+    width: 100%;
+    height: 149px;
+    margin-top: 20%;
+}
+#logo
+{
+    width: 80px;
+}
+
+#game
+{
+	width: 573px;
+	margin-top: 50px;
+}
+#game:hover
+{
+	width: 583px;
+}

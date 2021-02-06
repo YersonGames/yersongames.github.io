@@ -1,0 +1,101 @@
+<html>
+<head lang="en">
+
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="styles.css">
+<title>Minecraft GML</title>
+
+<style>
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
+{
+display : none;
+}
+
+body
+{
+background:url(dirt.png) fixed center;
+background-image: url(dirt.png);
+background_attachment: fixed;
+background-position:center;
+}
+#body
+{
+background:url(dirt.png) fixed center;
+background-image: url(dirt.png);
+background_attachment: fixed;
+background-position:center;
+}
+
+</style>
+
+</head>
+<body id="body">
+
+    <audio id="audio" controls>
+        <source type="audio/mp3" src="button.mp3">
+    </audio> 
+    
+<header>
+    <a href="home"><img src="title.png" alt="" id="img1"></a>
+    <nav>
+        <ul>
+    <li><a href="home">Home</a></li>
+    <li><a href="downloads">Download</a></li>
+            </ul>
+    </nav>
+</header>
+    
+<center>
+    <div id="text2">Minecraft GML is  a FanGame created with <br><br> GameMaker: Studio and developed by Yerson Games</div>
+    </center>
+    
+        <div class="button2">
+        <a href="downloads">
+        <img src="button1.png" onmouseover="this.src='button2.png';" onmouseout="this.src='button1.png';" onmousedown="sonido.play()" onclick="alarma();">
+        </a>
+        <script>
+var audio = document.getElementById("audio");
+
+function alarma(){
+    audio.play();
+}
+</script>
+        
+        <div class="texts">
+            Download
+        </div>
+    </div>
+	
+	        <div class="button2">
+        <a href="../home">
+        <img src="button1.png" onmouseover="this.src='button2.png';" onmouseout="this.src='button1.png';" onmousedown="sonido.play()" onclick="alarma();">
+        </a>
+        <script>
+var audio = document.getElementById("audio");
+
+function alarma(){
+    audio.play();
+}
+</script>
+        
+        <div class="texts">
+            Quit Game
+        </div>
+    </div>
+	
+    <center>
+    <img src="images/image1.png" id="images"><br><br>
+    <img src="images/image2.png" id="images"><br><br>
+    <img src="images/image3.png" id="images"><br><br>
+    <img src="images/image4.png" id="images"><br><br>
+    <img src="images/image5.png" id="images"><br><br>
+    <img src="images/image6.png" id="images"><br><br>
+    </center>
+
+    
+    <footer>
+    <iframe src="footer.html"></iframe>
+    </footer>
+</body>
+</html> 
