@@ -32,7 +32,7 @@ background-position:center;
 
 </head>
 <body id="body">
-
+<div class="contenedor">
     <audio id="audio" controls>
         <source type="audio/mp3" src="button.mp3">
     </audio> 
@@ -51,7 +51,7 @@ background-position:center;
     <center id="text2">Minecraft GML is  a FanGame created with <br><br> GameMaker: Studio and developed by Yerson Games</center>
     </center>
     
-        <center class="button2">
+        <div class="button2">
         <a href="downloads">
         <img src="button1.png" onmouseover="this.src='button2.png';" onmouseout="this.src='button1.png';" onmousedown="sonido.play()" onclick="alarma();" id="button">
         </a>
@@ -66,7 +66,7 @@ function alarma(){
         <center class="texts">
             Download
         </center>
-    </center>
+    </div>
 	
 	        <center class="button2">
         <a href="../home">
@@ -98,5 +98,6 @@ function alarma(){
     <footer>
     <iframe src="footer.html"></iframe>
     </footer>
+	</div>
 </body>
 </html> 
