@@ -15,6 +15,10 @@ max-width:1400px;
 margin:0 auto;
 overflow:hidden;
 }
+#button
+{
+width: 33.5%;
+}
 header
 {
     background-image: url(header.png);
@@ -25,7 +29,7 @@ header
 }
 #img1
 {
-    width: 35%;
+    width: 30%;
     margin-top: 25px;
     margin-left: 20;
 }
@@ -125,7 +129,7 @@ li:hover a
 }
 #images
 {
-    width: 60%;
+    width: 50%;
     margin-top: 50px;
 }
 iframe
