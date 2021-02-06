@@ -10,8 +10,8 @@
 }
 .contenedor
 {
-width:150%;
-max-width:1000px;
+width:100%;
+max-width:1400px;
 margin:0 auto;
 overflow:hidden;
 }
@@ -136,7 +136,7 @@ iframe
 }
 #logo
 {
-    width: 0.8%;
+    width: 8%;
 }
 
 #game
