@@ -1,10 +1,10 @@
 <html>
 <head lang="en">
-
+    <meta charset="utf-8">
 <link rel="icon" href="icon.png">
 <link rel="stylesheet" href="styles.css">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
-<title>Minecraft GML</title>
+<title>Yerson Games</title>
 
 <style>
 
@@ -13,90 +13,39 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 display : none;
 }
 
-body
-{
-background:url(dirt.png) fixed center;
-background-image: url(dirt.png);
-background_attachment: fixed;
-background-position:center;
-}
-#body
-{
-background:url(dirt.png) fixed center;
-background-image: url(dirt.png);
-background_attachment: fixed;
-background-position:center;
-}
+#img-box img{width:57.3%;auto;margin:50 auto;}
+#img-box img{max-width:100%;transition:all ease 1s;max-height:100%}
+#img-box:hover>img{transform:scale(1.1)}
+#yt img{width:7%;auto}
+#yt img{max-width:1000px;transition:all ease 1s;max-height:100%}
+#yt:hover>img{transform:scale(1.25)}
 
 </style>
 
 </head>
-<body id="body">
-
-    <audio id="audio" controls>
-        <source type="audio/mp3" src="button.mp3">
-    </audio> 
-    
+<body bgcolor="black">
+<div class="contenedor">
 <header>
-    <a href="home"><img src="title.png" alt="" id="img1"></a>
+    <a href="home"><img src="yg.png" alt="" id="img1"></a>
     <nav>
         <ul>
     <li><a href="home">Home</a></li>
-    <li><a href="downloads">Download</a></li>
+    <li><a href="projects">Projects</a></li>
             </ul>
     </nav>
 </header>
-    
+
 <center>
-    <center id="text2">Minecraft GML is  a FanGame created with <br><br> GameMaker: Studio and developed by Yerson Games</center>
-    </center>
-    
-        <center class="button2">
-        <a href="downloads">
-        <img src="button1.png" onmouseover="this.src='button2.png';" onmouseout="this.src='button1.png';" onmousedown="sonido.play()" onclick="alarma();" id="button">
-        </a>
-        <script>
-var audio = document.getElementById("audio");
-
-function alarma(){
-    audio.play();
-}
-</script>
-        
-        <center class="texts">
-            Download
-        </center>
+<center id="text1">Latest project:</center>
+	<a href="MinecraftGML/home" id="img-box"> <img src="mcgml.png" /></a>
+	<br><br><br>
+	<a href="https://www.youtube.com/c/YersonGames" id="yt"><img src="yt.png" alt=""/></a>
+	<a href="https://discord.com/invite/UrrddsY" id="yt"><img src="discord.png" alt=""/></a>
+	<a href="https://gamejolt.com/@YersonGames" id="yt"><img src="gj.png" alt="" /></a>
     </center>
 	
-	        <center class="button2">
-        <a href="../home">
-        <img src="button1.png" onmouseover="this.src='button2.png';" onmouseout="this.src='button1.png';" onmousedown="sonido.play()" onclick="alarma();" id="button">
-        </a>
-        <script>
-var audio = document.getElementById("audio");
-
-function alarma(){
-    audio.play();
-}
-</script>
-        
-        <center class="texts">
-            Quit Game
-        </center>
-    </center>
-	
-    <center>
-    <img src="images/image1.png" id="images"><br><br>
-    <img src="images/image2.png" id="images"><br><br>
-    <img src="images/image3.png" id="images"><br><br>
-    <img src="images/image4.png" id="images"><br><br>
-    <img src="images/image5.png" id="images"><br><br>
-    <img src="images/image6.png" id="images"><br><br>
-    </center>
-
-    
-    <footer>
+	<footer>
     <iframe src="footer.html"></iframe>
     </footer>
+</div>
 </body>
-</html> 
