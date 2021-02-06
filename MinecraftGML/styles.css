@@ -23,7 +23,7 @@ header
 {
     background-image: url(header.png);
     width: 100%;
-    height: 21.3%;
+    height: 149px;
     position: fixed;
     z-index: 12;
 }
